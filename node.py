@@ -76,9 +76,9 @@ async def run(loop):
             if old_value is not None:
                 await VARIABLE.set('HashCode')
             else:
-                await VARIABLE.set('PES2UG20CSXXX') 
+                await VARIABLE.set('PES2UG20CS204') 
         except:
-            await VARIABLE.set('PES2UG20CSXXX')
+            await VARIABLE.set('PES2UG20CS204')
 
         # Client Command executed;    
         log_file.write('Done writing VARIABLE\n Check the .log and .state_machine files!')
